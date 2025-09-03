@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação Vertical</title>
+
+    <style>
+        .caixa {
+            height: 45px;
+            margin: 0px;
+            background-color: white;
+            /* fundo branco */
+            color: black;
+            display: flex;
+            align-items: center;
+            padding-left: 25px;
+            /* espaço para a borda verde */
+            border-left: 15px solid green;
+            /* borda verde do lado esquerdo */
+            transition: all 0.3s ease;
+            /* animação suave */
+            border-bottom: 1px solid gray;
+            width: 100px;
+        }
+
+        .caixa:hover {
+            background-color: green;
+            /* muda a cor de fundo ao passar o mouse */
+            color: white; 
+            /* muda a cor do texto ao passar o mouse */
+            border-top: 2px solid red;
+            border-bottom: 2px solid red;
+        }
+
+        a{
+            text-decoration: none;
+            align-items: center;
+            color:rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="caixa"><a href="#">Principal</a></div>
+    <div class="caixa"><a href="#">Sobre Nós</a></div>
+    <div class="caixa"><a href="#">Produtos</a></div>
+    <div class="caixa"><a href="#">Serviços</a></div>
+    <div class="caixa"><a href="#">Contato</a></div>
+
+</body>
+
+</html>
